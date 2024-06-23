@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #343a40;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    color: #007bff;
+}
+
+.intro {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+    color: #6c757d;
+}
+
+.search-section {
+    margin-bottom: 40px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+
+#results-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#results-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#results-list h3 {
+    margin: 0;
+}
+
+#results-list a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#results-list a:hover {
+    text-decoration: underline;
+}
+
+.specializations {
+    margin-top: 40px;
+}
+
+.specializations h2 {
+    text-align: center;
+    color: #343a40;
+}
+
+.specialization {
+    margin-bottom: 20px;
+}
+
+.specialization h3 {
+    color: #007bff;
+}
+
+.specialization ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.specialization ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.specialization ul li:last-child {
+    border-bottom: none;
+}
